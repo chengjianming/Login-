@@ -86,6 +86,7 @@
 		8836D3221CC867FD003BBEBC /* xuanzhong1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836D3151CC867FD003BBEBC /* xuanzhong1@3x.png */; };
 		886CD2E01CC9CF2600C55909 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886CD2DF1CC9CF2600C55909 /* UserTableViewController.m */; };
 		889F78651CCA2ED600CB09EE /* RealNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889F78641CCA2ED600CB09EE /* RealNameTableViewController.m */; };
+		88D5A86C1CCB641E00C4F84E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */; };
 		88F7E62B1CC8A90E00025277 /* LoginHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7E62A1CC8A90E00025277 /* LoginHttp.m */; };
 		88F7E62E1CC8A9DC00025277 /* UserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7E62D1CC8A9DC00025277 /* UserLogin.m */; };
 		88F7E6311CC8AC3300025277 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7E6301CC8AC3300025277 /* BaseNetManager.m */; };
@@ -182,6 +183,8 @@
 		886CD2DF1CC9CF2600C55909 /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
 		889F78631CCA2ED600CB09EE /* RealNameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameTableViewController.h; sourceTree = "<group>"; };
 		889F78641CCA2ED600CB09EE /* RealNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameTableViewController.m; sourceTree = "<group>"; };
+		88D5A86A1CCB641E00C4F84E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		88F7E6231CC8A63E00025277 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		88F7E6291CC8A90E00025277 /* LoginHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHttp.h; sourceTree = "<group>"; };
 		88F7E62A1CC8A90E00025277 /* LoginHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHttp.m; sourceTree = "<group>"; };
@@ -242,6 +245,7 @@
 		8816137A1CC5DB99009A64C7 /* demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				88D5A86D1CCB64A100C4F84E /* Helper */,
 				889F78621CCA2E7D00CB09EE /* View */,
 				889F78611CCA2AFE00CB09EE /* Controller */,
 				88F7E6281CC8A83B00025277 /* NetManager */,
@@ -381,6 +385,15 @@
 				881613941CC5DBB6009A64C7 /* MineTableViewController.xib */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		88D5A86D1CCB64A100C4F84E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				88D5A86A1CCB641E00C4F84E /* UIView+Frame.h */,
+				88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 		88F7E6241CC8A7DE00025277 /* Model */ = {
@@ -604,6 +617,7 @@
 				881613801CC5DB99009A64C7 /* AppDelegate.m in Sources */,
 				88F7E62E1CC8A9DC00025277 /* UserLogin.m in Sources */,
 				8816137D1CC5DB99009A64C7 /* main.m in Sources */,
+				88D5A86C1CCB641E00C4F84E /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "UserLogin.h"
-@interface LoginHttp : NSObject
+#import "BaseNetManager.h"
+@interface LoginHttp : BaseNetManager
 @property (strong,nonatomic) NSDictionary  *data;
 //登录
 +(void)loginUserName:(NSString *)userName UserPwd:(NSString *)userPwd callback:(void(^)(UserLogin *))callback error:(void(^)(NSError *))error;

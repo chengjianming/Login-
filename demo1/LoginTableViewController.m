@@ -60,7 +60,7 @@
         [cell addSubview:pwdTextFiled];
     }
     if (indexPath.row == 6) {
-        UIButton *forgotPwdBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, cell.frame.size.height)];
+        UIButton *forgotPwdBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, cell.height)];
         [forgotPwdBtn setTitle:@"忘记密码？" forState:UIControlStateNormal];
         [forgotPwdBtn setTitleColor:self.view.tintColor forState:UIControlStateNormal];
 //        forgotPwdBtn.backgroundColor = [UIColor redColor];
@@ -71,7 +71,7 @@
     }
     if (indexPath.row == 7) {
         UIButton *loginBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        loginBtn.frame = CGRectMake(10, 0, [UIScreen mainScreen].bounds.size.width-20, cell.frame.size.height);
+        loginBtn.frame = CGRectMake(10, 0, [UIScreen mainScreen].bounds.size.width-20, cell.height);
         [loginBtn setTitle:@"登陆" forState:UIControlStateNormal];
         [loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 //        loginBtn.backgroundColor = [UIColor redColor];
@@ -106,7 +106,7 @@
     textFiled.layer.cornerRadius = 3;
     UIImageView *textFiledImv = [[UIImageView alloc]init];
     textFiledImv.image = [UIImage imageNamed:imageName];
-    textFiledImv.frame = CGRectMake(10, 5, textFiled.frame.size.height-10, textFiled.frame.size.height-10);
+    textFiledImv.frame = CGRectMake(10, 5, textFiled.height-10, textFiled.height-10);
     textFiledImv.contentMode = UIViewContentModeScaleAspectFit;
     textFiled.leftView = textFiledImv;
     textFiled.leftViewMode = UITextFieldViewModeAlways;
