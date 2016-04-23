@@ -26,7 +26,8 @@
     NSString *loginUrl = [NSString stringWithFormat:@"http://192.168.1.106:8080/living-area-web/api/login.do?contact=%@&password=%@",params[@"contact"],params[@"password"]];
     NSLog(@"%@",loginUrl);
     return [self POST:loginUrl parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completionHandler([UserLogin mj_objectWithKeyValues:responseObj],error);
+        
+//        completionHandler([UserLogin mj_objectWithKeyValues:responseObj],error);
     }];
 //
     

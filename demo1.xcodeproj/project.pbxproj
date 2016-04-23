@@ -87,6 +87,7 @@
 		886CD2E01CC9CF2600C55909 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886CD2DF1CC9CF2600C55909 /* UserTableViewController.m */; };
 		889F78651CCA2ED600CB09EE /* RealNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889F78641CCA2ED600CB09EE /* RealNameTableViewController.m */; };
 		88D5A86C1CCB641E00C4F84E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */; };
+		88D5A8701CCB879D00C4F84E /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D5A86F1CCB879D00C4F84E /* NSObject+Common.m */; };
 		88F7E62B1CC8A90E00025277 /* LoginHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7E62A1CC8A90E00025277 /* LoginHttp.m */; };
 		88F7E62E1CC8A9DC00025277 /* UserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7E62D1CC8A9DC00025277 /* UserLogin.m */; };
 		88F7E6311CC8AC3300025277 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7E6301CC8AC3300025277 /* BaseNetManager.m */; };
@@ -185,6 +186,8 @@
 		889F78641CCA2ED600CB09EE /* RealNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameTableViewController.m; sourceTree = "<group>"; };
 		88D5A86A1CCB641E00C4F84E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		88D5A86E1CCB879D00C4F84E /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		88D5A86F1CCB879D00C4F84E /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
 		88F7E6231CC8A63E00025277 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		88F7E6291CC8A90E00025277 /* LoginHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHttp.h; sourceTree = "<group>"; };
 		88F7E62A1CC8A90E00025277 /* LoginHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHttp.m; sourceTree = "<group>"; };
@@ -392,6 +395,8 @@
 			children = (
 				88D5A86A1CCB641E00C4F84E /* UIView+Frame.h */,
 				88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */,
+				88D5A86E1CCB879D00C4F84E /* NSObject+Common.h */,
+				88D5A86F1CCB879D00C4F84E /* NSObject+Common.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -611,6 +616,7 @@
 				881613951CC5DBB6009A64C7 /* MineTableViewController.m in Sources */,
 				889F78651CCA2ED600CB09EE /* RealNameTableViewController.m in Sources */,
 				88F7E6311CC8AC3300025277 /* BaseNetManager.m in Sources */,
+				88D5A8701CCB879D00C4F84E /* NSObject+Common.m in Sources */,
 				881614081CC61AF7009A64C7 /* LoginTableViewController.m in Sources */,
 				88F7E62B1CC8A90E00025277 /* LoginHttp.m in Sources */,
 				881613831CC5DB99009A64C7 /* ViewController.m in Sources */,

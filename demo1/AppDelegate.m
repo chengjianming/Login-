@@ -44,7 +44,7 @@
     
     
     
-    
+    [self showProgress];
     
     //测试登录返回的信息
     NSString *url =@"http://192.168.1.126:8080/living-area-web/api/login.do?contact=18868196382&password=000000";
@@ -61,6 +61,7 @@
              NSLog(@"%@",[[dic objectForKey:@"id"] class]);
         }else{
             NSLog(@"%@",error);
+            
         }
        
 
