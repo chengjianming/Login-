@@ -6,5 +6,6 @@
 target 'demo1' do
 pod 'AFNetworking'
 pod 'MJExtension'
+pod 'SDWebImage'
 end
 
