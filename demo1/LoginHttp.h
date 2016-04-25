@@ -12,5 +12,5 @@
 @interface LoginHttp : BaseNetManager
 @property (strong,nonatomic) NSDictionary  *data;
 //登录
-+(void)loginUserName:(NSString *)userName UserPwd:(NSString *)userPwd callback:(void(^)(UserLogin *))callback error:(void(^)(NSError *))error;
++(id)loginUserName:(NSString *)userName UserPwd:(NSString *)userPwd completionHandle:(void (^)(UserLogin *use,NSError *error ))complete;
 @end

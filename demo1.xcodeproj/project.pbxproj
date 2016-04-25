@@ -71,6 +71,7 @@
 		881614041CC5E114009A64C7 /* ziliao_touxiang70@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 881613DE1CC5E114009A64C7 /* ziliao_touxiang70@3x.png */; };
 		881614081CC61AF7009A64C7 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881614061CC61AF7009A64C7 /* LoginTableViewController.m */; };
 		881614091CC61AF7009A64C7 /* LoginTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881614071CC61AF7009A64C7 /* LoginTableViewController.xib */; };
+		8832FE471CCDED6000E2BA3F /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8832FE461CCDED6000E2BA3F /* AppDelegate+Category.m */; };
 		8836D3161CC867FD003BBEBC /* denglu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836D3091CC867FD003BBEBC /* denglu_bg@2x.png */; };
 		8836D3171CC867FD003BBEBC /* denglu_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836D30A1CC867FD003BBEBC /* denglu_bg@3x.png */; };
 		8836D3181CC867FD003BBEBC /* kuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 8836D30B1CC867FD003BBEBC /* kuang.png */; };
@@ -167,6 +168,8 @@
 		881614051CC61AF7009A64C7 /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
 		881614061CC61AF7009A64C7 /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
 		881614071CC61AF7009A64C7 /* LoginTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginTableViewController.xib; sourceTree = "<group>"; };
+		8832FE451CCDED6000E2BA3F /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
+		8832FE461CCDED6000E2BA3F /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
 		8836D3091CC867FD003BBEBC /* denglu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglu_bg@2x.png"; sourceTree = "<group>"; };
 		8836D30A1CC867FD003BBEBC /* denglu_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglu_bg@3x.png"; sourceTree = "<group>"; };
 		8836D30B1CC867FD003BBEBC /* kuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuang.png; sourceTree = "<group>"; };
@@ -397,6 +400,8 @@
 				88D5A86B1CCB641E00C4F84E /* UIView+Frame.m */,
 				88D5A86E1CCB879D00C4F84E /* NSObject+Common.h */,
 				88D5A86F1CCB879D00C4F84E /* NSObject+Common.m */,
+				8832FE451CCDED6000E2BA3F /* AppDelegate+Category.h */,
+				8832FE461CCDED6000E2BA3F /* AppDelegate+Category.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -620,6 +625,7 @@
 				881614081CC61AF7009A64C7 /* LoginTableViewController.m in Sources */,
 				88F7E62B1CC8A90E00025277 /* LoginHttp.m in Sources */,
 				881613831CC5DB99009A64C7 /* ViewController.m in Sources */,
+				8832FE471CCDED6000E2BA3F /* AppDelegate+Category.m in Sources */,
 				881613801CC5DB99009A64C7 /* AppDelegate.m in Sources */,
 				88F7E62E1CC8A9DC00025277 /* UserLogin.m in Sources */,
 				8816137D1CC5DB99009A64C7 /* main.m in Sources */,
